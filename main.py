@@ -13,7 +13,8 @@ def build_filters():
         filters.append(kern)
     return filters
 
-
+#accum : mag
+#aacum2 : ang
 def process(img, filters):
     accum = np.zeros_like(img)
     accum2 = np.zeros_like(img)
